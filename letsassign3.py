@@ -1,7 +1,11 @@
 #using all arguments in one function or
 #passing multiple arguments in a function 
+#positional arguments
+#default arguments 
+#variable length arguments
+#keyword grguments
 
-def func1(a,b=12, *args, **kwargs):
+def func1(a,b=12, *args, **kwargs): 
     c=a+b
     print(c)
     for i in args:
